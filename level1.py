@@ -1,5 +1,4 @@
-import time
-import sys
+import functions
 
 
 def level1():
@@ -11,12 +10,9 @@ def level1():
           " |_____|  \___|   \_/    \___| |_| (_)   |_|\n")
 
     # level one - Timothy
-    level_one1 = "Your journey starts now. You have arrived on Brierton. Take some time to gather resources " \
+    level_one = "Your journey starts now. You have arrived on Brierton. Take some time to gather resources " \
                  "that will help you along your way to victory.\n"
-    for letter in level_one1:
-        sys.stdout.write(letter)
-        sys.stdout.flush()
-        time.sleep(0.01)
+    functions.typewriter(level_one)
 
     print("\nYou have entered the armory of the Briertonian High Council. Choose your weapon:")
     print("[1] The Sword and Shield of Truth\n[2] The Bow and Cloak of Wonders\n[3] The Wand and Book of Destiny")
