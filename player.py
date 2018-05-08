@@ -13,11 +13,8 @@ class Player:
     def set_health(self, num):
         self.health += num
 
-
     def get_attack(self):
         return self.attack
 
     def get_health(self):
         return self.health
-
-    

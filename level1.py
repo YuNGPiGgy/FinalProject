@@ -1,6 +1,7 @@
 import time
 import sys
 
+
 def level1():
     # level one title screen - Cory (ASCII retrieved from http://patorjk.com/)
     print("\nEntering:\n  _                             _         _ \n"
